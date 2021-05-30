@@ -35,7 +35,7 @@ const App = () => {
     const [bad, setBad] = useState(0)
     return (
         <div>
-            <h1> Dear customer, Please give your valuable feedback </h1>
+            <h1>Give feedback </h1>
             <div>
                 <Button event={()=> setGood(good+1)} text="Good" />
                 <Button event={()=> setNeutral(neutral+1)} text="Neutral" />
